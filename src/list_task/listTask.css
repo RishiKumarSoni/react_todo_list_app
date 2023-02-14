@@ -1,0 +1,58 @@
+.listtask {
+    background-color: #eee;
+
+    border-radius: 4px;
+
+    padding: 8px;
+}
+
+.listtask ul {
+    list-style: none;
+}
+
+.listtask ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    list-style: none;
+
+    padding: 8px 4px;
+
+    cursor: pointer;
+
+    border-radius: 4px;
+}
+
+.listtask ul li:hover {
+    background-color: #fff;
+}
+
+.listtask ul li span:first-child{
+    max-width: 60%;
+    
+}
+
+.listtask ul li span {
+    display: block;
+}
+
+.listtask ul li button {
+    padding: 4px 8px;
+    margin: 0 2px;
+    
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+    color: #000;
+    background: #fff;
+
+    font-size: 12px;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+.listtask ul li button:hover {
+    border: 1px solid #61dafb;
+}
