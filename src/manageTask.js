@@ -5,13 +5,7 @@ import React, { useState} from 'react';
 
 function ManageTask() {
     // create a state for incoming & present task lists
-    const [ManageTaskArr, setManageTaskArr] = useState([
-
-        {name: 'update todo list design', status: 0},
-        {name: 'revise maths concepts', status: 0},
-        {name: 'take care of your health', status: 1},
-        
-    ]);
+    const [ManageTaskArr, setManageTaskArr] = useState([]);
 
     const [editTaskInfo, setEditTaskInfo] = useState();
 
